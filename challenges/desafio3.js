@@ -1,4 +1,4 @@
-db.produtos.findOne({},{
+db.produtos.findOne({}, {
     _id: 0,
     nome: 1,
     vendidos: 1,
