@@ -1,4 +1,3 @@
-
 db.produtos.updateMany({},
     { $pull: { ingredientes: { $eq: "cebola" } } });
   
